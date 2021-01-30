@@ -193,6 +193,6 @@ void ASGEGame::render()
     renderer->renderSprite(*anim_sprite[anim_sprite_counter].getSpriteComponent()->getSprite());
     renderer->renderSprite(*terrain.getSpriteComponent()->getSprite());
     renderer->renderSprite(*tree.getSpriteComponent()->getSprite());
-    //player1.render(renderer.get());
+    //player1.render(renderer.get()); 
   }
 }
