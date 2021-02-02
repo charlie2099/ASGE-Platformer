@@ -68,7 +68,7 @@ bool ASGEGame::init()
   terrain.getSpriteComponent()->getSprite()->yPos(anim_sprite->getSpriteComponent()->getSprite()->yPos() + anim_sprite->getSpriteComponent()->getSprite()->height());
   terrain.getSpriteComponent()->getSprite()->width(ASGE::SETTINGS.window_width);
   terrain.getSpriteComponent()->getSprite()->height(100);
-  terrain.getSpriteComponent()->getSprite()->colour(ASGE::COLOURS::BLUE);
+  terrain.getSpriteComponent()->getSprite()->colour(ASGE::COLOURS::DARKBLUE);
 
   tree.addSpriteComponent(renderer.get(), "data/images/cube.png");
   tree.getSpriteComponent()->getSprite()->xPos(1250);
